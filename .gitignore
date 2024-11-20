@@ -56,3 +56,4 @@ python_files/tests/*/.data/*/.coverage*
 src/testTestingRootWkspc/coverageWorkspace/.coverage
 TrainingArchiveBadData/
 PredictionArchivedBadData/
+.ipynb_checkpoints
