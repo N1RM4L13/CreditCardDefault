@@ -1,34 +1,11 @@
 import os
-# from prediction_Validation_Insertion import pred_validation
+from prediction.validation_insertion import pred_validation
 from training.train_model import trainModel
 from training.validation_insertion import train_validation
-# from predictFromModel import prediction
+from prediction.predict_model import prediction
 
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
-
-
-# try:
-#     path = 'Prediction_Batch_Files'
-#
-#     pred_val = pred_validation(path) #object initialization
-#
-#     pred_val.prediction_validation() #calling the prediction_validation function
-#
-#     pred = prediction(path) #object initialization
-#
-#     # predicting for dataset present in database
-#     path = pred.predictionFromModel()
-#     print("Prediction File created at %s!!!" % path)
-#
-# except ValueError:
-#     print("Error Occurred! %s" %ValueError)
-# except KeyError:
-#     print("Error Occurred! %s" %KeyError)
-# except Exception as e:
-#     print("Error Occurred! %s" %e)
-#
-
 
 
 try:
@@ -54,7 +31,34 @@ except KeyError:
 except Exception as e:
 
     print("Error Occurred! %s" % e)
-#print("Training successfull!!")
+# print("Training successfull!!")
+
+
+
+# try:
+#     path = 'Prediction_Batch_Files'
+
+#     pred_val = pred_validation(path) #object initialization
+
+#     pred_val.prediction_validation() #calling the prediction_validation function
+
+#     pred = prediction(path) #object initialization
+
+#     # predicting for dataset present in database
+#     path = pred.predictionFromModel()
+#     print("Prediction File created at %s!!!" % path)
+
+# except ValueError:
+#     print("Error Occurred! %s" %ValueError)
+# except KeyError:
+#     print("Error Occurred! %s" %KeyError)
+# except Exception as e:
+#     print("Error Occurred! %s" %e)
+
+
+
+
+
 
 
 

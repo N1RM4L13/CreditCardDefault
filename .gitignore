@@ -58,3 +58,4 @@ TrainingArchiveBadData/
 PredictionArchivedBadData/
 .ipynb_checkpoints
 Training_Logs/
+Prediction_Logs/
