@@ -1,0 +1,84 @@
+2024-11-21/12:08:17		Start of Validation on files for prediction!!
+2024-11-21/12:08:17		Raw Data Validation Complete!!
+2024-11-21/12:08:17		Starting Data Transforamtion!!
+2024-11-21/12:08:17		DataTransformation Completed!!!
+2024-11-21/12:08:17		Creating Prediction_Database and tables on the basis of given schema!!!
+2024-11-21/12:08:17		Table creation Completed!!
+2024-11-21/12:08:17		Insertion of Data into Table started!!!!
+2024-11-21/12:08:30		Insertion in Table completed!!!
+2024-11-21/12:08:30		Deleting Good Data Folder!!!
+2024-11-21/12:08:30		Good_Data folder deleted!!!
+2024-11-21/12:08:30		Moving bad files to Archive and deleting Bad_Data folder!!!
+2024-11-21/12:08:30		Bad files moved to archive!! Bad folder Deleted!!
+2024-11-21/12:08:30		Validation Operation completed!!
+2024-11-21/12:08:30		Extracting csv file from table
+2024-11-21/12:08:30		Start of Prediction
+2024-11-21/12:08:30		Entered the get_data method of the Data_Getter class
+2024-11-21/12:08:30		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-11-21/12:08:30		Entered the is_null_present method of the Preprocessor class
+2024-11-21/12:08:30		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-11-21/12:08:30		Entered the scale_numerical_columns method of the Preprocessor class
+2024-11-21/12:08:30		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2024-11-21/12:08:30		Entered the load_model method of the File_Operation class
+2024-11-21/12:08:30		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2024-11-21/12:08:30		Entered the find_correct_model_file method of the File_Operation class
+2024-11-21/12:08:30		Exited the find_correct_model_file method of the Model_Finder class.
+2024-11-21/12:08:30		Entered the load_model method of the File_Operation class
+2024-11-21/12:08:30		Model File XGBoost0 loaded. Exited the load_model method of the Model_Finder class
+2024-11-21/12:08:31		Error occured while running the prediction!! Error:: Cannot save file into a non-existent directory: 'Prediction_Output_File'
+2024-11-21/12:08:55		Start of Validation on files for prediction!!
+2024-11-21/12:08:55		Raw Data Validation Complete!!
+2024-11-21/12:08:55		Starting Data Transforamtion!!
+2024-11-21/12:08:55		DataTransformation Completed!!!
+2024-11-21/12:08:55		Creating Prediction_Database and tables on the basis of given schema!!!
+2024-11-21/12:08:55		Table creation Completed!!
+2024-11-21/12:08:55		Insertion of Data into Table started!!!!
+2024-11-21/12:09:09		Insertion in Table completed!!!
+2024-11-21/12:09:09		Deleting Good Data Folder!!!
+2024-11-21/12:09:09		Good_Data folder deleted!!!
+2024-11-21/12:09:09		Moving bad files to Archive and deleting Bad_Data folder!!!
+2024-11-21/12:09:09		Bad files moved to archive!! Bad folder Deleted!!
+2024-11-21/12:09:09		Validation Operation completed!!
+2024-11-21/12:09:09		Extracting csv file from table
+2024-11-21/12:09:09		Start of Prediction
+2024-11-21/12:09:09		Entered the get_data method of the Data_Getter class
+2024-11-21/12:09:09		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-11-21/12:09:09		Entered the is_null_present method of the Preprocessor class
+2024-11-21/12:09:09		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-11-21/12:09:09		Entered the scale_numerical_columns method of the Preprocessor class
+2024-11-21/12:09:09		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2024-11-21/12:09:09		Entered the load_model method of the File_Operation class
+2024-11-21/12:09:09		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2024-11-21/12:09:09		Entered the find_correct_model_file method of the File_Operation class
+2024-11-21/12:09:09		Exited the find_correct_model_file method of the Model_Finder class.
+2024-11-21/12:09:09		Entered the load_model method of the File_Operation class
+2024-11-21/12:09:09		Model File XGBoost0 loaded. Exited the load_model method of the Model_Finder class
+2024-11-21/12:09:09		End of Prediction
+2024-11-21/12:15:16		Start of Validation on files for prediction!!
+2024-11-21/12:15:16		Raw Data Validation Complete!!
+2024-11-21/12:15:16		Starting Data Transforamtion!!
+2024-11-21/12:15:16		DataTransformation Completed!!!
+2024-11-21/12:15:16		Creating Prediction_Database and tables on the basis of given schema!!!
+2024-11-21/12:15:17		Table creation Completed!!
+2024-11-21/12:15:17		Insertion of Data into Table started!!!!
+2024-11-21/12:15:30		Insertion in Table completed!!!
+2024-11-21/12:15:30		Deleting Good Data Folder!!!
+2024-11-21/12:15:30		Good_Data folder deleted!!!
+2024-11-21/12:15:30		Moving bad files to Archive and deleting Bad_Data folder!!!
+2024-11-21/12:15:30		Bad files moved to archive!! Bad folder Deleted!!
+2024-11-21/12:15:30		Validation Operation completed!!
+2024-11-21/12:15:30		Extracting csv file from table
+2024-11-21/12:15:30		Start of Prediction
+2024-11-21/12:15:30		Entered the get_data method of the Data_Getter class
+2024-11-21/12:15:30		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-11-21/12:15:30		Entered the is_null_present method of the Preprocessor class
+2024-11-21/12:15:30		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-11-21/12:15:30		Entered the scale_numerical_columns method of the Preprocessor class
+2024-11-21/12:15:30		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2024-11-21/12:15:30		Entered the load_model method of the File_Operation class
+2024-11-21/12:15:30		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2024-11-21/12:15:30		Entered the find_correct_model_file method of the File_Operation class
+2024-11-21/12:15:30		Exited the find_correct_model_file method of the Model_Finder class.
+2024-11-21/12:15:30		Entered the load_model method of the File_Operation class
+2024-11-21/12:15:30		Model File XGBoost0 loaded. Exited the load_model method of the Model_Finder class
+2024-11-21/12:15:31		End of Prediction
