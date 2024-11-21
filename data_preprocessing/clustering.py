@@ -41,7 +41,7 @@ class KMeansClustering:
             plt.xlabel('Number of clusters')
             plt.ylabel('WCSS')
             #plt.show()
-            plt.savefig('preprocessing_data/K-Means_Elbow.PNG') # saving the elbow plot locally
+            plt.savefig('data_preprocessing/K-Means_Elbow.PNG') # saving the elbow plot locally
             # finding the value of the optimum cluster programmatically
             self.kn = KneeLocator(range(1, 11), wcss, curve='convex', direction='decreasing')
             self.logger_object.log(self.file_object, 'The optimum number of clusters is: '+str(self.kn.knee)+' . Exited the elbow_plot method of the KMeansClustering class')

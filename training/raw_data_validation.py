@@ -17,10 +17,6 @@ class Raw_Data_validation:
     """
              This class shall be used for handling all the validation done on the Raw Training Data!!.
 
-             Written By: iNeuron Intelligence
-             Version: 1.0
-             Revisions: None
-
              """
 
     def __init__(self,path):
