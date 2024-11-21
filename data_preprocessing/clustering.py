@@ -7,10 +7,6 @@ class KMeansClustering:
     """
             This class shall  be used to divide the data into clusters before training.
 
-            Written By: iNeuron Intelligence
-            Version: 1.0
-            Revisions: None
-
             """
 
     def __init__(self, file_object, logger_object):
@@ -23,10 +19,6 @@ class KMeansClustering:
                         Description: This method saves the plot to decide the optimum number of clusters to the file.
                         Output: A picture saved to the directory
                         On Failure: Raise Exception
-
-                        Written By: iNeuron Intelligence
-                        Version: 1.0
-                        Revisions: None
 
                 """
         self.logger_object.log(self.file_object, 'Entered the elbow_plot method of the KMeansClustering class')
@@ -59,9 +51,6 @@ class KMeansClustering:
                                 Output: A datframe with cluster column
                                 On Failure: Raise Exception
 
-                                Written By: iNeuron Intelligence
-                                Version: 1.0
-                                Revisions: None
 
                         """
         self.logger_object.log(self.file_object, 'Entered the create_clusters method of the KMeansClustering class')

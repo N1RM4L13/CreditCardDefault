@@ -32,10 +32,6 @@ class Raw_Data_validation:
                         Output: LengthOfDateStampInFile, LengthOfTimeStampInFile, column_names, Number of Columns
                         On Failure: Raise ValueError,KeyError,Exception
 
-                         Written By: iNeuron Intelligence
-                        Version: 1.0
-                        Revisions: None
-
                                 """
         try:
             with open(self.schema_path, 'r') as f:
@@ -84,10 +80,6 @@ class Raw_Data_validation:
                                 Output: Regex pattern
                                 On Failure: None
 
-                                 Written By: iNeuron Intelligence
-                                Version: 1.0
-                                Revisions: None
-
                                         """
         # sample file name: "creditCardFraud_021119920_010222.csv"
         regex = "['creditCardFraud']+['\_'']+[\d_]+[\d]+\.csv"
@@ -102,10 +94,6 @@ class Raw_Data_validation:
 
                                       Output: None
                                       On Failure: OSError
-
-                                       Written By: iNeuron Intelligence
-                                      Version: 1.0
-                                      Revisions: None
 
                                               """
 
@@ -133,10 +121,6 @@ class Raw_Data_validation:
                                             Output: None
                                             On Failure: OSError
 
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
-
                                                     """
 
         try:
@@ -163,10 +147,6 @@ class Raw_Data_validation:
                                             Output: None
                                             On Failure: OSError
 
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
-
                                                     """
 
         try:
@@ -191,10 +171,6 @@ class Raw_Data_validation:
                                                           files to send them back to the client for invalid data issue.
                                             Output: None
                                             On Failure: OSError
-
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
 
                                                     """
         now = datetime.now()
@@ -238,10 +214,6 @@ class Raw_Data_validation:
                                  to Bad Raw Data folder else in Good raw data.
                     Output: None
                     On Failure: Exception
-
-                     Written By: iNeuron Intelligence
-                    Version: 1.0
-                    Revisions: None
 
                 """
 
@@ -295,10 +267,6 @@ class Raw_Data_validation:
                           Output: None
                           On Failure: Exception
 
-                           Written By: iNeuron Intelligence
-                          Version: 1.0
-                          Revisions: None
-
                       """
         try:
             f = open("Training_Logs/columnValidationLog.txt", 'a+')
@@ -331,10 +299,6 @@ class Raw_Data_validation:
                                                SUch files are moved to bad raw data.
                                   Output: None
                                   On Failure: Exception
-
-                                   Written By: iNeuron Intelligence
-                                  Version: 1.0
-                                  Revisions: None
 
                               """
         try:
