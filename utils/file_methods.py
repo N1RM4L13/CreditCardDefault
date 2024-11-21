@@ -8,10 +8,6 @@ class File_Operation:
                 This class shall be used to save the model after training
                 and load the saved model for prediction.
 
-                Written By: iNeuron Intelligence
-                Version: 1.0
-                Revisions: None
-
                 """
     def __init__(self,file_object,logger_object):
         self.file_object = file_object
@@ -24,10 +20,6 @@ class File_Operation:
             Description: Save the model file to directory
             Outcome: File gets saved
             On Failure: Raise Exception
-
-            Written By: iNeuron Intelligence
-            Version: 1.0
-            Revisions: None
 """
         self.logger_object.log(self.file_object, 'Entered the save_model method of the File_Operation class')
         try:
@@ -56,10 +48,6 @@ class File_Operation:
                     Description: load the model file to memory
                     Output: The Model file loaded in memory
                     On Failure: Raise Exception
-
-                    Written By: iNeuron Intelligence
-                    Version: 1.0
-                    Revisions: None
         """
         self.logger_object.log(self.file_object, 'Entered the load_model method of the File_Operation class')
         try:
@@ -82,10 +70,6 @@ class File_Operation:
                             Description: Select the correct model based on cluster number
                             Output: The Model file
                             On Failure: Raise Exception
-
-                            Written By: iNeuron Intelligence
-                            Version: 1.0
-                            Revisions: None
                 """
         self.logger_object.log(self.file_object, 'Entered the find_correct_model_file method of the File_Operation class')
         try:
